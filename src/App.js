@@ -29,7 +29,7 @@ class App extends Component {
 
   rule = rules[0]
   componentDidMount() {
-    this.generateCellsState()
+   setInterval(this.generateCellsState ,1000)
   }
 
   generateCellsState() {
